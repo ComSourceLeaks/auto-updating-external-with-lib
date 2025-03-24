@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{e9bc1b57-4c32-421c-a7cb-96bd23f18022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Aimbot">
+      <UniqueIdentifier>{f14ca75c-427a-47d1-86dd-274e9082262c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Memory">
+      <UniqueIdentifier>{48ae4b1c-e4b6-4f97-9d0d-86b0c66e916e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Overlay">
+      <UniqueIdentifier>{8e82bb04-a612-4864-828d-0b727d3fdd68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Game">
+      <UniqueIdentifier>{df584d4f-57d8-4e60-a9dd-e3b5ed6cce6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Game\Drawing">
+      <UniqueIdentifier>{74134cfa-595a-46d7-afcb-f9946b47f7fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Game\Functions">
+      <UniqueIdentifier>{1e5443dc-d09d-4ff3-aca1-d05835bb58fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Overlay\Include">
+      <UniqueIdentifier>{6c894890-653e-4700-a6fa-790a20dbd3ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Game\helper">
+      <UniqueIdentifier>{e9da14a7-e3d7-4b2f-af97-a2283cd694ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Overlay\Particles">
+      <UniqueIdentifier>{194bb526-b680-40d6-b8a4-187d40115efe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Dependencies">
+      <UniqueIdentifier>{d9fc5620-6597-400f-a3ff-2dd8c34e290b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Dependencies\Framework">
+      <UniqueIdentifier>{2de361b9-d76d-41d7-be65-a2a4f9bfb3f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Dependencies\Includes">
+      <UniqueIdentifier>{cf2a52cb-f85d-4322-9a09-7ea4acab5b25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Dependencies\Includes\Utilites">
+      <UniqueIdentifier>{cb579987-79b4-4ffb-92a6-20697dfe9fc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Overlay\MenuColors">
+      <UniqueIdentifier>{660cf99d-04d1-4f73-80a4-72af693616a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Overlay\Menu Properties">
+      <UniqueIdentifier>{5221723f-e9a7-4be6-826a-1a0b4dfa5ebf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Aimbot\triggerbot">
+      <UniqueIdentifier>{29c995ee-ed5d-4a63-92ed-bdbfb143d907}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Overlay\Helpers">
+      <UniqueIdentifier>{fb91304e-0560-44ef-ac36-9a592f07b60d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{d6719fad-c971-4709-af05-083893903bd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{8b233513-7253-47d9-9738-7ce1456cf1d4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="menuproperties.cpp">
+      <Filter>Core\Overlay\MenuColors</Filter>
+    </ClCompile>
+    <ClCompile Include="lodepng.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\custom.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vectors.hpp">
+      <Filter>Core\Game\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.hpp">
+      <Filter>Core\Game\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.hpp">
+      <Filter>Core\Game\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="aimbot.cpp">
+      <Filter>Core\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.h">
+      <Filter>Core\Dependencies\Includes\Utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="import.hpp">
+      <Filter>Core\Dependencies\Includes\Utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="cache.cpp">
+      <Filter>Core\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ue.hpp">
+      <Filter>Core\Game\Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui.hpp">
+      <Filter>Core\Overlay\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="startup.hpp">
+      <Filter>Core\Dependencies\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.hpp">
+      <Filter>Core\Dependencies\Includes\Utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.hpp">
+      <Filter>Core\Dependencies\Includes\Utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="keybind.hpp">
+      <Filter>Core\Dependencies\Includes\Utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="xorst.h">
+      <Filter>Core\Dependencies\Includes\Utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="cache_helper.hpp">
+      <Filter>Core\Game\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="particles.hpp">
+      <Filter>Core\Overlay\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="menucol.h">
+      <Filter>Core\Overlay\MenuColors</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Core\Overlay\Menu Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="triggerbothelper.h">
+      <Filter>Core\Aimbot\triggerbot</Filter>
+    </ClInclude>
+    <ClInclude Include="imports.h">
+      <Filter>Core\Aimbot\triggerbot</Filter>
+    </ClInclude>
+    <ClInclude Include="hider.h">
+      <Filter>Core\Aimbot\triggerbot</Filter>
+    </ClInclude>
+    <ClInclude Include="lootesp.hpp">
+      <Filter>Core\Game\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="prediction.hpp">
+      <Filter>Core\Game\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="crypter.h">
+      <Filter>Core\Overlay\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="weaponesp.h">
+      <Filter>Core\Game\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="lazyyyy.hpp" />
+    <ClInclude Include="OverlayHelper.h">
+      <Filter>Core\Overlay\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="render.hpp">
+      <Filter>Core\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="crypt23.h" />
+    <ClInclude Include="gui.h">
+      <Filter>Core\Dependencies\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>Core\Dependencies\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="logo.h" />
+    <ClInclude Include="lodepng.h" />
+    <ClInclude Include="communication.h">
+      <Filter>Core\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="spoofing.hpp" />
+    <ClInclude Include="..\imgui factura (1)\imgui factura\examples\example_win32_directx11\font.h">
+      <Filter>Core\Dependencies\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui factura (1)\imgui factura\examples\example_win32_directx11\image.h">
+      <Filter>Core\Dependencies\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\font.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\image.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_settings.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="notification.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_freetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\bytes.hpp">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\custom.hpp">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="auth.hpp" />
+    <ClInclude Include="curl\curl.h" />
+    <ClInclude Include="curl\curlver.h" />
+    <ClInclude Include="curl\easy.h" />
+    <ClInclude Include="curl\header.h" />
+    <ClInclude Include="curl\mprintf.h" />
+    <ClInclude Include="curl\multi.h" />
+    <ClInclude Include="curl\options.h" />
+    <ClInclude Include="curl\stdcheaders.h" />
+    <ClInclude Include="curl\system.h" />
+    <ClInclude Include="curl\typecheck-gcc.h" />
+    <ClInclude Include="curl\urlapi.h" />
+    <ClInclude Include="curl\websockets.h" />
+    <ClInclude Include="cpr\accept_encoding.h" />
+    <ClInclude Include="cpr\api.h" />
+    <ClInclude Include="cpr\async.h" />
+    <ClInclude Include="cpr\async_wrapper.h" />
+    <ClInclude Include="cpr\auth.h" />
+    <ClInclude Include="cpr\bearer.h" />
+    <ClInclude Include="cpr\body.h" />
+    <ClInclude Include="cpr\buffer.h" />
+    <ClInclude Include="cpr\callback.h" />
+    <ClInclude Include="cpr\cert_info.h" />
+    <ClInclude Include="cpr\connect_timeout.h" />
+    <ClInclude Include="cpr\cookies.h" />
+    <ClInclude Include="cpr\cpr.h" />
+    <ClInclude Include="cpr\cprtypes.h" />
+    <ClInclude Include="cpr\curl_container.h" />
+    <ClInclude Include="cpr\curlholder.h" />
+    <ClInclude Include="cpr\curlmultiholder.h" />
+    <ClInclude Include="cpr\error.h" />
+    <ClInclude Include="cpr\file.h" />
+    <ClInclude Include="cpr\filesystem.h" />
+    <ClInclude Include="cpr\http_version.h" />
+    <ClInclude Include="cpr\interceptor.h" />
+    <ClInclude Include="cpr\interface.h" />
+    <ClInclude Include="cpr\limit_rate.h" />
+    <ClInclude Include="cpr\local_port.h" />
+    <ClInclude Include="cpr\local_port_range.h" />
+    <ClInclude Include="cpr\low_speed.h" />
+    <ClInclude Include="cpr\multipart.h" />
+    <ClInclude Include="cpr\multiperform.h" />
+    <ClInclude Include="cpr\parameters.h" />
+    <ClInclude Include="cpr\payload.h" />
+    <ClInclude Include="cpr\proxies.h" />
+    <ClInclude Include="cpr\proxyauth.h" />
+    <ClInclude Include="cpr\range.h" />
+    <ClInclude Include="cpr\redirect.h" />
+    <ClInclude Include="cpr\reserve_size.h" />
+    <ClInclude Include="cpr\resolve.h" />
+    <ClInclude Include="cpr\response.h" />
+    <ClInclude Include="cpr\session.h" />
+    <ClInclude Include="cpr\singleton.h" />
+    <ClInclude Include="cpr\ssl_ctx.h" />
+    <ClInclude Include="cpr\ssl_options.h" />
+    <ClInclude Include="cpr\status_codes.h" />
+    <ClInclude Include="cpr\threadpool.h" />
+    <ClInclude Include="cpr\timeout.h" />
+    <ClInclude Include="cpr\unix_socket.h" />
+    <ClInclude Include="cpr\user_agent.h" />
+    <ClInclude Include="cpr\util.h" />
+    <ClInclude Include="cpr\verbose.h" />
+    <ClInclude Include="nlohmann\detail\conversions\from_json.hpp" />
+    <ClInclude Include="nlohmann\detail\conversions\to_chars.hpp" />
+    <ClInclude Include="nlohmann\detail\conversions\to_json.hpp" />
+    <ClInclude Include="nlohmann\detail\input\binary_reader.hpp" />
+    <ClInclude Include="nlohmann\detail\input\input_adapters.hpp" />
+    <ClInclude Include="nlohmann\detail\input\json_sax.hpp" />
+    <ClInclude Include="nlohmann\detail\input\lexer.hpp" />
+    <ClInclude Include="nlohmann\detail\input\parser.hpp" />
+    <ClInclude Include="nlohmann\detail\input\position_t.hpp" />
+    <ClInclude Include="nlohmann\detail\iterators\internal_iterator.hpp" />
+    <ClInclude Include="nlohmann\detail\iterators\iter_impl.hpp" />
+    <ClInclude Include="nlohmann\detail\iterators\iteration_proxy.hpp" />
+    <ClInclude Include="nlohmann\detail\iterators\iterator_traits.hpp" />
+    <ClInclude Include="nlohmann\detail\iterators\json_reverse_iterator.hpp" />
+    <ClInclude Include="nlohmann\detail\iterators\primitive_iterator.hpp" />
+    <ClInclude Include="nlohmann\detail\meta\call_std\begin.hpp" />
+    <ClInclude Include="nlohmann\detail\meta\call_std\end.hpp" />
+    <ClInclude Include="nlohmann\detail\meta\cpp_future.hpp" />
+    <ClInclude Include="nlohmann\detail\meta\detected.hpp" />
+    <ClInclude Include="nlohmann\detail\meta\identity_tag.hpp" />
+    <ClInclude Include="nlohmann\detail\meta\is_sax.hpp" />
+    <ClInclude Include="nlohmann\detail\meta\std_fs.hpp" />
+    <ClInclude Include="nlohmann\detail\meta\type_traits.hpp" />
+    <ClInclude Include="nlohmann\detail\meta\void_t.hpp" />
+    <ClInclude Include="nlohmann\detail\output\binary_writer.hpp" />
+    <ClInclude Include="nlohmann\detail\output\output_adapters.hpp" />
+    <ClInclude Include="nlohmann\detail\output\serializer.hpp" />
+    <ClInclude Include="nlohmann\detail\abi_macros.hpp" />
+    <ClInclude Include="nlohmann\detail\exceptions.hpp" />
+    <ClInclude Include="nlohmann\detail\hash.hpp" />
+    <ClInclude Include="nlohmann\detail\json_custom_base_class.hpp" />
+    <ClInclude Include="nlohmann\detail\json_pointer.hpp" />
+    <ClInclude Include="nlohmann\detail\json_ref.hpp" />
+    <ClInclude Include="nlohmann\detail\macro_scope.hpp" />
+    <ClInclude Include="nlohmann\detail\macro_unscope.hpp" />
+    <ClInclude Include="nlohmann\detail\string_concat.hpp" />
+    <ClInclude Include="nlohmann\detail\string_escape.hpp" />
+    <ClInclude Include="nlohmann\detail\value_t.hpp" />
+    <ClInclude Include="nlohmann\thirdparty\hedley\hedley.hpp" />
+    <ClInclude Include="nlohmann\thirdparty\hedley\hedley_undef.hpp" />
+    <ClInclude Include="nlohmann\adl_serializer.hpp" />
+    <ClInclude Include="nlohmann\byte_container_with_subtype.hpp" />
+    <ClInclude Include="nlohmann\json.hpp" />
+    <ClInclude Include="nlohmann\json_fwd.hpp" />
+    <ClInclude Include="nlohmann\ordered_map.hpp" />
+    <ClInclude Include="offsetdumper.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="library_x64.lib" />
+    <Library Include="OffsetDumper.lib" />
+  </ItemGroup>
+</Project>
